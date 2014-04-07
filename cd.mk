@@ -6,14 +6,14 @@ TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 800
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/cyandream/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/asus/tf300t/full_tf300t.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tf300t
-PRODUCT_NAME := cm_tf300t
+PRODUCT_NAME := cd_tf300t
 PRODUCT_BRAND := Asus
 PRODUCT_MODEL := TF300T
 PRODUCT_MANUFACTURER := Asus
